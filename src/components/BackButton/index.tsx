@@ -6,7 +6,7 @@ import { FaArrowLeft } from "react-icons/fa";
 const BackButton = () => {
   const navigate = useNavigate();
   return (
-    <div onClick={() => navigate("/")} className={classes.backButton}>
+    <div onClick={() => navigate("/ifgames")} className={classes.backButton}>
       <FaArrowLeft size={20} />
     </div>
   );

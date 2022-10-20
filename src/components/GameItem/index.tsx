@@ -13,7 +13,7 @@ interface IProps {
 const GameItem: React.FC<IProps> = ({ game }) => {
   const navigate = useNavigate();
   const handleGameButtonClick = () => {
-    navigate(`/${game.id}`);
+    navigate(`/ifgames/${game.id}`);
   };
   return (
     <div className={classes.gameContainer}>
