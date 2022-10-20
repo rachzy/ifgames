@@ -30,8 +30,8 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route index={true} element={<Index />} />
-        <Route path="/:gameName" element={<GamePage />} />
+        <Route path="/ifgames" element={<Index />} />
+        <Route path="/ifgames/:gameName" element={<GamePage />} />
       </Routes>
     </BrowserRouter>
   );
