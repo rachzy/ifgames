@@ -1,0 +1,16 @@
+header.header {
+  position: fixed;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.575);
+  font-size: 2.5vh;
+  z-index: 999;
+}
+
+@media screen and (max-width: 660px) {
+  header.header {
+    display: none;
+  }
+}

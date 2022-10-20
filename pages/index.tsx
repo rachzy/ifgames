@@ -6,13 +6,14 @@ import IFLogo from "../components/IFLogo";
 
 import MainWrapper from "../components/MainWrapper";
 import GameItem from "../components/GameItem";
-import Footer from "../components/Footer";
 
 import { games } from "./_app";
+import Header from "../components/Header";
 
 const Index: NextPage = () => {
   return (
     <MainWrapper mainMenu={true}>
+      <Header>By 2º Ano de Informática ツ</Header>
       <FlatContainer center={true}>
         <IFLogo style={{ margin: "2vh" }} size={60} />
         <h1 className={classes.mainMenuTitle}>Games</h1>
@@ -22,7 +23,6 @@ const Index: NextPage = () => {
           return <GameItem key={game.id} game={game} />;
         })}
       </FlatContainer>
-      <Footer>By 2º Ano de Informática ツ</Footer>
     </MainWrapper>
   );
 };
