@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ifgames/static/css/main.db54f91c.css",
+    "main.js": "/ifgames/static/js/main.bbb1d532.js",
+    "static/media/soundtrack.mp3": "/ifgames/static/media/soundtrack.d4b6f19f6013c7bac991.mp3",
+    "static/media/pop.mp3": "/ifgames/static/media/pop.ba853897a73567988d86.mp3",
+    "static/media/balloon-green.png": "/ifgames/static/media/balloon-green.c9c6dc9ee02dee5e7937.png",
+    "static/media/balloon-yellow.png": "/ifgames/static/media/balloon-yellow.ec4e32bcc1aa18983301.png",
+    "static/media/balloon-blue.png": "/ifgames/static/media/balloon-blue.f002de6f550ad0c8fcc4.png",
+    "static/media/hit.mp3": "/ifgames/static/media/hit.03db6272220c13ddd8ba.mp3",
+    "static/media/iflogo.png": "/ifgames/static/media/iflogo.b389dbdeb664bc2db392.png",
+    "static/media/balloon-red.png": "/ifgames/static/media/balloon-red.0f233d0a5d1bc1ca0116.png",
+    "index.html": "/ifgames/index.html",
+    "main.db54f91c.css.map": "/ifgames/static/css/main.db54f91c.css.map",
+    "main.bbb1d532.js.map": "/ifgames/static/js/main.bbb1d532.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db54f91c.css",
+    "static/js/main.bbb1d532.js"
+  ]
+}
