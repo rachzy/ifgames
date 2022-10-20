@@ -1,8 +1,8 @@
 module.exports = {
+  basePath: "/ifgames",
   webpack(config, options) {
     const { isServer } = options;
     config.module.rules.push({
-      basePath: "/ifgames",
       test: /\.(ogg|mp3|wav|mpe?g)$/i,
       exclude: config.exclude,
       use: [
