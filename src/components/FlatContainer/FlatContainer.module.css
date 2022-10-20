@@ -1,0 +1,4 @@
+div.flatContainer {
+  display: flex;
+  flex-wrap: wrap;
+}

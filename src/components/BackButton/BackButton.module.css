@@ -1,0 +1,13 @@
+div.backButton {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  margin: 20px;
+
+  cursor: pointer;
+}
+
+div.backButton:hover {
+  transform: scale(1.1);
+}
