@@ -1,0 +1,7 @@
+div.detailsContainer {
+  position: absolute;
+
+  bottom: 0;
+  left: 0;
+  margin-left: 10px;
+}
